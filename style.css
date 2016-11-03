@@ -1,3 +1,9 @@
 body{
+  font-family:'Helvetica', 'Verdana',sans-serif;;
   background-color:blue;
+}
+
+.vaporwave{
+  font-family:monospace;
+  letter-spacing: 2px;
 }
