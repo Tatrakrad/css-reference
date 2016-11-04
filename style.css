@@ -11,6 +11,9 @@ h1{
 }
 h2{
   font-size: 3em;
+  letter-spacing: -3px;
+  padding: .5em 0 .5em 0;
+  line-height:1.2;
 }
 h3{
   font-size: 2em;
@@ -21,11 +24,21 @@ h4{
 h5{
   font-size:1.25em;
 }
+
+em{
+  font-style:italic;
+}
+strong{
+  font-weight:bold;
+  background-color:firebrick;
+  border-radius:30px;
+  border-width:1px;
+}
 .title{
   text-align:center;
   margin:0 auto 6em auto;
   padding: 0 0 26em 0;
-  line-height: 1.2;
+  line-height: 1.4;
   max-width:1200px;
   background-color:#4F5D75;
   color: #EF8354;
@@ -44,6 +57,7 @@ h5{
   min-height: 600px;
   background-color: #4F5D75;
   text-align:center;
+  display:inline-block;
 }
 
 .pantograph{
@@ -56,17 +70,34 @@ h5{
   letter-spacing: 2px;
 
 }
+.content{
+
+
+}
+
+.sidebar-content{
+  color:#ffffff;
+  padding:1em 1em 1em 1em;
+  font-size:.7em;
+  line-height: 1.2;
+}
 
 .leftbar{
+  display: inline-block;
   float:left;
-  background-color: #4F5D75;
+  background-color: #2D3142;
   height:100%;
-  min-width: 100px;
+  width:20%;
   clear:left;
+  min-height: 10px;
+  margin:auto;
 }
 .rightbar{
+  display:inline-block;
   float:right;
-  background-color: #4F5D75;
-  width:20%
+  background-color: #2D3142;
+  width:20%;
+  height:100%;
   clear:right;
+  margin:auto;
 }
