@@ -34,13 +34,22 @@ strong{
   border-radius:30px;
   border-width:1px;
 }
+
+a{
+  color:ivory;
+
+}
+
 .title{
+
   text-align:center;
-  margin:0 auto 6em auto;
-  padding: 0 0 26em 0;
+
+  margin:0 0 0 0;
+  padding: 0 0 1em 0;
+
   line-height: 1.4;
   max-width:1200px;
-  background-color:#4F5D75;
+
   color: #EF8354;
   display:inline;
   clear:none;
@@ -50,14 +59,13 @@ strong{
 
 .main{
   margin:0 auto 0 auto;
-  padding: 3em 3em 9em 3em;
-  clear:none;
+  padding: 3em 2em 3em 2em;
   width:60%;
-  min-width: 300px;
+  min-width: 100px;
   min-height: 600px;
   background-color: #4F5D75;
   text-align:center;
-  display:inline-block;
+  display:block;
 }
 
 .pantograph{
@@ -67,7 +75,8 @@ strong{
 
 .vaporwave{
   font-family:monospace;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+  line-height: 1.25;
 
 }
 .content{
@@ -88,9 +97,10 @@ strong{
   background-color: #2D3142;
   height:100%;
   width:20%;
-  clear:left;
+  clear:none;
   min-height: 10px;
   margin:auto;
+  position: absolute;
 }
 .rightbar{
   display:inline-block;
@@ -98,6 +108,7 @@ strong{
   background-color: #2D3142;
   width:20%;
   height:100%;
-  clear:right;
+  clear:none;
   margin:auto;
+  min-height: 10px;
 }
