@@ -5,6 +5,10 @@ body{
   font-size: 18px;
 }
 
+ h3{
+  color:#ef8354;
+}
+
 h1{
   font-size: 4em;
   font-weight: 900;
@@ -12,14 +16,19 @@ h1{
 h2{
   font-size: 3em;
   letter-spacing: -3px;
-  padding: .5em 0 .5em 0;
+  padding: .7em 0 .7em 0;
   line-height:1.2;
+  font-weight: 900;
 }
 h3{
-  font-size: 2em;
+  font-size: 2.33em;
+  padding:.5em;
+  font-weight:800;
 }
 h4{
   font-size:1.666em;
+  padding:.3em;
+  font-weight:700;
 }
 h5{
   font-size:1.25em;
@@ -28,6 +37,13 @@ h5{
 em{
   font-style:italic;
 }
+
+hr{
+  width:inherit;
+  padding:0.2em;
+  text-align:center;
+}
+
 strong{
   font-weight:bold;
   background-color:firebrick;
@@ -37,7 +53,14 @@ strong{
 
 a{
   color:ivory;
+  line-height: 1.4em;
 
+}
+
+.return{
+  text-align: left;
+  text-decoration: none;
+  margin:2em;
 }
 
 .title{
@@ -55,6 +78,17 @@ a{
   clear:none;
   width:60%;
 
+  text-transform: uppercase;
+
+}
+
+.example{
+  font-family: monospace;
+  line-height: 1.2;
+  margin:1em;
+  padding:.5em;
+  border-style: outset;
+  border-width: medium;
 }
 
 .main{
@@ -80,8 +114,15 @@ a{
 
 }
 .content{
+  padding: 6em auto 6em auto;
+  margin-top: 6em;
+}
 
-
+.transparent-img{
+  background-color: #EF8354;
+  color:#000000;
+  padding: 1em;
+  margin: 2em auto 2em auto;
 }
 
 .sidebar-content{
@@ -96,11 +137,12 @@ a{
   float:left;
   background-color: #2D3142;
   height:100%;
+  min-height: 1200px;
   width:20%;
   clear:none;
   min-height: 10px;
   margin:auto;
-  position: absolute;
+  position: fixed;
 }
 .rightbar{
   display:inline-block;
