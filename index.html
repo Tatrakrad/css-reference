@@ -18,12 +18,12 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#boxmodel">The Box Model</a></li>
           <li><a href="#text">CSS for Text</a></li>
-          <li><a href="about:blank">TestLink #4</a></li>
+          <li><a href="#centering">Centering</a></li>
           <li><a href="about:blank">TestLink #5</a></li>
           <li><a href="about:blank">TestLink #6</a></li>
-          <li><a href="about:blank" target="_blank">TestLink #7</a></li>
-          <li><a href="about:blank" target="_blank">TestLink #8</a></li>
-          <li><a href="about:blank" target="_blank">TestLink #9</a></li>
+          <li><a href="about:blank">TestLink #7</a></li>
+          <li><a href="about:blank">TestLink #8</a></li>
+          <li><a href="about:blank">TestLink #9</a></li>
         </ul>
       </div>
     </div>
@@ -35,8 +35,8 @@
 
     <div class = 'main'>
 
-      <h2>Click the Links and get some <strong><em>Information</em></strong></h2>
-      <p id='home'>Don't rely on memory! Human memory is scientifically proven to be totally inaccurate</p>
+      <h2 id='home'>Click the Links and get some <strong><em>Information</em></strong></h2>
+      <p>Don't rely on memory! Human memory is scientifically proven to be totally inaccurate</p>
 
       <hr>
       <br>
@@ -74,12 +74,26 @@
         <p>setting text-decoration to none will remove underlines from anchor tags</p>
       </div>
 
-    </div>
+      <div id='centering' class='content'>
+
+        <h3>Centering</h3>
+        <h4>Horizontal Centering</h4>
+        <p class='example'>.wrapper {width:960px;margin:0 auto;}
+        </p>
+        <h4>Vertical Centering</h4>
+        <p class ='example'>.container {<br>
+        	min-height: 10em;<br>
+        	display: table-cell;<br>
+        	vertical-align: middle;}
+        </p>
+      </div>
+
+    </div><!-- End of main container -->
 
     <div class = 'rightbar'>
       <div class = 'sidebar-content'>
         <p><a href='xmas/xmas.html' target="_blank">Ignore me!</a></p>
-
+        <p></p>
 
       </div>
     </div>
