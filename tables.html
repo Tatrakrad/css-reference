@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>This is my CSS Reference</title>
+
+      <link href="reset.css" rel=stylesheet>
+      <link href="style.css" rel=stylesheet>
+
+  </head>
+  <body>
+
+
+    <div class = 'leftbar'>
+      <div class = 'sidebar-content'>
+        <p>This is still a sidebar</p>
+        <br>
+        <ul class = 'vaporwave'>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#boxmodel">The Box Model</a></li>
+          <li><a href="#text">CSS for Text</a></li>
+          <li><a href="#centering">Centering</a></li>
+          <li><a href="tables.html">Tables</a></li>
+          <li><a href="Borders">Borders</a></li>
+          <li><a href="about:blank">TestLink #8</a></li>
+
+        </ul>
+      </div>
+    </div>
+
+
+    <div class = 'title'>
+      <h1>CSS Reference</h1>
+    </div>
+
+    <div class="main content">
+      <h2>Doing Tables</h2>
+
+      <p>Define a table by the <em class='example'>&#60;table&#62;</em> tag.</p><br>
+      <p>&#60;tr&#62; defines rows, &#60;th&#62; is a column heading, &#60;td&#62; are the individual cells</p>
+      <p>The regular CSS border property defines the table and table cell borders. Setting {border-collapse: collapse} will collapse the borders into one.</p>
+
+      <div class='example'>
+        <p>&#60;table style="width:100%"&#62;<br>
+          &#60;tr&#62;<br>
+            &#60;th&#62;Firstname&#60;/th&#62;<br>
+            &#60;th&#62;Lastname&#60;/th&#62;<br>
+            &#60;th&#62;Age&#60;/th&#62;<br>
+          &#60;/tr&#62;<br>
+          &#60;tr&#62;<br>
+            &#60;td&#62;Jill&#60;/td&#62;<br>
+            &#60;td&#62;Smith&#60;/td&#62;<br>
+            &#60;td&#62;50&#60;/td&#62;<br>
+          &#60;/tr&#62;<br>
+          &#60;tr&#62;<br>
+            &#60;td&#62;Eve&#60;/td&#62;<br>
+            &#60;td&#62;Jackson&#60;/td&#62;<br>
+            &#60;td&#62;94&#60;/td&#62;<br>
+          &#60;/tr&#62;<br>
+        &#60;/table&#62;</p><br>
+
+      </div>
+      <br><p>the code above results in:</p>
+      <table style="width:100%" class='example'>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+      </table>
+
+
+    </div>
+
+
+
+
+  </body>
+
+</html>
