@@ -70,9 +70,9 @@ a{
   max-width:1200px;
 
   color: #EF8354;
-  display:inline;
-  clear:none;
-  width:60%;
+  display:inline-block;
+  clear:both;
+  width:90%;
 
   text-transform: uppercase;
 
@@ -81,7 +81,8 @@ a{
 .example{
   font-family: monospace;
   line-height: 1.2;
-  margin:1em;
+  margin:4em;
+
   padding:.5em;
   border-style: outset;
   border-width: medium;
@@ -95,15 +96,16 @@ table,tr,th,td{
 }
 
 .main{
-  margin: 0 auto 6em auto;
+  margin: 0 auto 0 auto;
   padding: 3em 2em 6em 2em;
   width:90%;
-  min-width: 800px;
+  min-width: 400px;
   min-height: 600px;
   background-color: #4F5D75;
   text-align:center;
+  float:right;
   display:block;
-  clear:none;
+  clear:right;
 }
 
 .pantograph{
@@ -118,7 +120,7 @@ table,tr,th,td{
 
 }
 .content{
-  padding: 6em auto 6em auto;
+  padding: 6em 12em 6em auto;
   margin-top: 6em;
 }
 
@@ -137,16 +139,16 @@ table,tr,th,td{
 }
 
 .leftbar{
-  display: inline-block;
+  display: inline;
   float:left;
+  clear:none;
   background-color: #2D3142;
   height:100%;
   min-height: 1200px;
   width:10%;
-  max-width: none;
-  clear:none;
-  margin:auto;
-  position: fixed;
+  max-width: 200px;
+  margin:1em;
+  position:fixed;
 }
 .rightbar{
   display:inline-block;
