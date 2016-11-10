@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand|Yantramanav');
+
 body{
   font-family:'Helvetica', 'Verdana',sans-serif;;
   background-color:#2D3142;
@@ -108,10 +110,6 @@ table,tr,th,td{
   clear:right;
 }
 
-.pantograph{
-
-
-}
 
 .vaporwave{
   font-family:monospace;
@@ -145,7 +143,29 @@ table,tr,th,td{
   background-color: #2D3142;
   height:100%;
   min-height: 200px;
-  width:10%;
+  width:12%;
   max-width: 200px;
   position:fixed;
+}
+
+#css-web-fonts{
+  max-width: 960px;
+  margin:auto 10%;
+}
+#css-web-fonts h3{
+  font-size: 2em;
+  margin: 0;
+  padding: 1em 0;
+}
+.pantograph{
+  text-align: center;
+  font-family: 'Shrikhand';
+  letter-spacing:1.3em;
+  max-width: 100%;
+}
+.improvesans{
+  font-family: 'Yantramanav';
+  letter-spacing: normal;
+  line-height: 1.1;
+  border: 3px solid #EF8354;
 }
