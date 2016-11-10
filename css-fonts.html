@@ -11,13 +11,60 @@
 </style>
   </head>
   <body>
+
+    <div class = 'leftbar'>
+      <div class = 'sidebar-content'>
+        <p>This is still a sidebar</p>
+        <br>
+        <ul class = 'vaporwave'>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#boxmodel">The Box Model</a></li>
+          <li><a href="#text">CSS for Text</a></li>
+          <li><a href="#centering">Centering</a></li>
+          <li><a href="tables.html">Tables</a></li>
+          <li><a href="#Borders">Borders</a></li>
+          <li><a href="#Floating">Floating</a></li>
+          <li><a href='xmas/index.html' target="_blank">Ignore me!</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+
     <section id = 'css-web-fonts'>
       <div class = "pantograph">
         <h3>This is a CSS Web Font</h3>
       </div>
-      <div class = "pantograph improvesans">
+      <div class = "improvesans pantograph">
         <p>With the magic of CSS3 and Content Delivery Networks</p>
         <p>You can foist whatever asinine typography you wish upon the hapless internet yeomanry.</p>
+      </div>
+      <div class = "content">
+        <p>You can use fonts other than the 'web-safe' choices by using one or more of these handy CSS rules.</p>
+        <ul>
+          <li>@font-face</li>
+          <li>@import</li>
+        </ul>
+        <p>@font-face lets you specify a source for a font-file, or sources for fonts in multiple formats, and assign them names to be used in the CSS 'Font-Family' rules</p>
+        <ul class='example'>
+          <li>@font-face {</li>
+          <li>font-family: "font of all knowledge";</li>
+          <li>src: url(fontofallknowledge.woff);</li>
+          <li>}</p></li>
+        </ul>
+        <p>@import is used to extend your stylesheet, and is the easiest way to add google fonts to your webzone. </p>
+        <p>the example below imported the 'Shrikhand' and 'Yantramanav' fonts into this page.</p>
+        <ul class='example'>
+          <li>@import</li>
+          <li>url('https://fonts.googleapis.com/css?family=Shrikhand|Yantramanav');</li>
+        </ul>
+
+        <p><em>Good Links:</em></p>
+        <ul>
+          <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+          <li><a href="http://www.htmldog.com/guides/css/advanced/atrules/">@Import Rules Intro</a></li>
+        </ul>
+
       </div>
     </section>
 
