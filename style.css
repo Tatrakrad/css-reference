@@ -175,3 +175,13 @@ table,tr,th,td{
   line-height: 1.3;
   border: 3px solid #EF8354;
 }
+
+#css-web-fonts .content{
+  font-family: 'Yantramanav';
+}
+
+.background-demo{
+  background: url(unsplash-bg-hanginggarden.jpg);
+  min-width: 960px;
+  min-height: 960px;
+}
