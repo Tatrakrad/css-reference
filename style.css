@@ -188,3 +188,7 @@ table,tr,th,td{
   overflow:auto;
   padding:28em 0 0 0;
 }
+
+#css-background-pix .test p{
+  padding:1.5em 0;
+}
