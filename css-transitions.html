@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+
+      <title>CSS Transitions</title>
+
+      <link href="reset.css" rel=stylesheet>
+      <link href="style.css" rel=stylesheet>
+  </head>
+  <body>
+
+      <div class = 'leftbar'>
+        <div class = 'sidebar-content'>
+          <p>This is still a sidebar</p>
+          <br>
+          <ul class = 'vaporwave'>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="css-background-pix.html">Background Images</a></li>
+            <li><a href="index.html#boxmodel">The Box Model</a></li>
+            <li><a href="index.html#text">CSS for Text</a></li>
+            <li><a href="index.html#centering">Centering</a></li>
+            <li><a href="tables.html">Tables</a></li>
+            <li><a href="index.html#Borders">Borders</a></li>
+            <li><a href="index.html#Floating">Floating</a></li>
+            <li><a href='xmas/index.html' target="_blank">Ignore me!</a></li>
+          </ul>
+        </div>
+      </div>
+
+    <section id= 'css-transitions' class= 'main-content'>
+      <div class = 'title'>
+        <h1>CSS Transitions</h1>
+      </div>
+
+      <div class = "main">
+        <h4>Transition Properties change values over a <em>Specified Duration</em></h4>
+        <p>
+          Hover over the box below
+        </p>
+
+        <div class = "transition-example">
+          <h5>Hi, I'm Content</h5>
+        </div>
+
+        <p>
+          Well will you look at that.
+        </p>
+        <p>
+          In this example, the class <em>.transition-example</em> and <em > .transition-example:hover</em> have different properties. Note the last property in the css.
+        </p>
+        <div class="example">
+
+           .transition-example{
+
+            width:75%;
+            margin:2em auto;
+            padding:1em;
+            border:3px groove gainsboro;
+            transition: all 0.5s ease;
+          }
+        </div>
+
+        <h5>Transition property values:</h5>
+        <ol class = 'infolist'>
+          <li>
+            The first shorthand value is Transition-Property. This is the property that should be changed.
+          </li>
+          <li>
+            The next value is Transition-Duration. In seconds, how long the element should take to change.
+          </li>
+          <li>
+            The third value is Transition-Timing-Function. This specifies the animation curve for intermediary values.
+          </li>
+        </ol>
+
+        <div>
+          <ul>
+            <li>Further Reading:</li>
+            <li><a href="https://css-tricks.com/almanac/properties/t/transition/">CSS Transition on CSS TRICKS</a></li>
+            <li>
+              <a href="https://www.w3.org/TR/css3-transitions/#animatable-properties">List of Animatable Properties</a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions">Using CSS Transitions on MDN</a>
+            </li>
+          </ul>
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+
+    </section>
+
+
+
+  </body>
+</html>

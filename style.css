@@ -8,7 +8,7 @@ body{
 }
 ul{
   padding:.5em;
-  margin: 0 1em;
+  margin: 0 auto;
 }
 
 h1{
@@ -76,7 +76,7 @@ a{
   color: #EF8354;
   display:inline-block;
   clear:both;
-  width:90%;
+  width:100%;
 
   text-transform: uppercase;
 
@@ -98,7 +98,7 @@ table,tr,th,td{
   border-collapse:collapse;
   border: 2px solid gray;
   margin:auto;
-  padding:2em;}
+  padding:1em;}
 
 .main{
   margin: 0 auto 0 auto;
@@ -145,7 +145,7 @@ table,tr,th,td{
   background-color: #2D3142;
   height:100%;
   min-height: 200px;
-  width:14%;
+  width:20%;
   max-width: 200px;
   position:fixed;
 }
@@ -191,4 +191,46 @@ table,tr,th,td{
 
 #css-background-pix .test p{
   padding:1.5em 0;
+}
+
+#css-transitions{
+  padding-left: 1em;
+  width:100%;
+  max-width: 960px;
+  margin:auto 10%;
+}
+
+#css-transitions p{
+  margin: 1em auto;
+}
+
+ .transition-example{
+  width:75%;
+  margin:2em auto;
+  padding:1em;
+  border:3px groove gainsboro;
+  transition: all 0.5s ease;
+}
+
+.transition-example:hover{
+  background-color:black;
+  color:gainsboro;
+  position: relative;
+  top:-1em;
+  padding:2em;
+  font-style:italic;
+  font-size:2em;
+  width: 50%;
+}
+
+.infolist{
+  margin: 0 auto;
+  border: 2px inset #EF8354;
+  width:80%;
+  text-align: left;
+  padding:25px;
+
+}
+ol.infolist{
+  list-style-type: armenian;
 }
