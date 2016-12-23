@@ -66,24 +66,62 @@
              margin:2em auto;<br />
              padding:1em;<br />
              border:3px groove gainsboro;<br />
-             animation: example-1 5s ease 1s infinite alternate;
+             animation: example-1 5s linear 1s infinite alternate;
             }<br /><br />
             @keyframes example-1{<br />
               0% {
                 transform: scale(1);
+                background-color: #EF8354;
               }
               20% {
-                transform:scale(0.8)
+                transform:scale(0.8);
               }
               40%{
-                transform:scale(0.4)
+                transform:scale(0.4);
+                background-color: firebrick;
               }
               80%{
-                transform:scale(0.6)
+                transform:scale(0.2);
               }
               100%{
-                transform:scale(1)
+                transform:scale(0);
+                background-color: #AA8888;
               }
+            }
+        </div>
+
+        <div class = "animation-example-two">
+          <h5>I don't know where I'm going!</h5>
+        </div>
+
+        <div class="example">
+
+
+          .animation-example-two{<br />
+            width:75%;
+            position: relative;
+            display: inline-block;
+            padding:1em;
+            border:3px groove firebrick;
+            animation: example-2 8s 4s ease infinite alternate;
+          }<br /><br />
+          @keyframes example-2{
+            0% {
+              right:0px;
+              background-color: orange;
+            }
+            50%{
+              right:-200px;
+              background-color:darkslategray;
+              border-radius: 50%;
+            }
+            100%{
+              right:400px;
+              background-color:lightgray;
+              color:black;
+            }
+          }
+
 
         </div>
 
