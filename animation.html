@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+
+      <title>CSS Animation</title>
+
+      <link href="reset.css" rel=stylesheet>
+      <link href="style.css" rel=stylesheet>
+  </head>
+  <body>
+
+      <div class = 'leftbar'>
+        <div class = 'sidebar-content'>
+          <p>This is still a sidebar</p>
+          <br>
+          <ul class = 'vaporwave'>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="css-transitions.html">CSS Transitions</a></li>
+            <li><a href="animation.html">CSS Animation</a></li>
+            <li><a href="css-background-pix.html">Background Images</a></li>
+            <li><a href="index.html#boxmodel">The Box Model</a></li>
+            <li><a href="index.html#text">CSS for Text</a></li>
+            <li><a href="index.html#centering">Centering</a></li>
+            <li><a href="tables.html">Tables</a></li>
+            <li><a href="index.html#Borders">Borders</a></li>
+            <li><a href="index.html#Floating">Floating</a></li>
+            <li><a href='xmas/index.html' target="_blank">Ignore me!</a></li>
+          </ul>
+        </div>
+      </div>
+
+    <section id= 'css-animation' class= 'main-content'>
+      <div class = 'title'>
+        <h1>CSS Animation</h1>
+      </div>
+
+      <div class = "main">
+        <h4>CSS Animations are a cool and neat way to make interesting things happen on a page. All you need is some content and<em> Excellence (also @ rules)</em></h4>
+        <ol class="infolist">
+          <li>
+            A Selected Element
+          </li>
+          <li>
+            An Keyframes @Rule
+          </li>
+          <li>
+            Some animation:properties
+          </li>
+        </ol>
+
+        <div class = "animation-example">
+          <h5>Hi, I'm Content</h5>
+        </div>
+
+        <p>
+          Well will you look at that.
+        </p>
+        <p>
+          In this example, the above div has the class of <em>.animation-example</em> and in the CSS file is followed by <em> @keyframes example-1</em>. The property <em>animation-name</em> or the first word in the animation shorthand in the class definition binds the similarly named @keyframes rule to our div.
+        </p>
+        <div class="example">
+
+            .animation-example{<br />
+             width:75%;<br />
+             margin:2em auto;<br />
+             padding:1em;<br />
+             border:3px groove gainsboro;<br />
+             animation: example-1 5s ease 1s infinite alternate;
+            }<br /><br />
+            @keyframes example-1{<br />
+              0% {
+                transform: scale(1);
+              }
+              20% {
+                transform:scale(0.8)
+              }
+              40%{
+                transform:scale(0.4)
+              }
+              80%{
+                transform:scale(0.6)
+              }
+              100%{
+                transform:scale(1)
+              }
+
+        </div>
+
+        <p>
+         Keyframes can be defined as From and To instead of percentages. Animations can play back and forth with the direction property instead of defining keyframes that move back to the original state.
+        </p>
+
+        <p>
+          Animation-Play-State property can be set to play or pause, allowing an animation to be started and stopped by input like :hover or a js event.
+        </p>
+        <p>
+          Animation-Fill-State specifies if the animation styles are visible before or after the animation plays. This property is a little confusing.
+        </p>
+
+        <h5>Animation shorthand property values:</h5>
+        <ol class = 'infolist'>
+          <li>
+            The first shorthand value is animation-name, and binds a corresponding @keyframes rule.
+          </li>
+          <li>
+            The next value is Animation-Duration. In seconds, how long the element should take to cycle through its keyframes.
+          </li>
+          <li>
+            The third value is Animation-Timing-Function. This specifies the animation curve for intermediary values. Set to ease by default, which starts slow but speeds up.
+          </li>
+          <li>
+            The fourth value is Animation-Delay. This specifies a waiting time between load and animation start.
+          </li>
+          <li>
+            The fifth value is Animation-Iteration-Count. This specifies how many times the animation should run.
+          </li>
+          <li>
+            The sixth value is Animation-Direction. Normal by default but can be set to alternate or reverse.
+          </li>
+        </ol>
+
+        <div>
+          <ul>
+            <li>Further Reading:</li>
+            <li><a href="https://css-tricks.com/almanac/properties/a/animation/">CSS Animation on CSS TRICKS</a></li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties">MDN List of Animatable Properties</a>
+            </li>
+            <li>
+              <a href="https://robots.thoughtbot.com/css-animation-for-beginners">A Slick Tutorial on CSS Animation with Precious Examples&trade;</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </section>
+
+  </body>
+</html>
